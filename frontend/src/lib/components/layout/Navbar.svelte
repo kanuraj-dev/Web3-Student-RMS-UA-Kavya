@@ -8,7 +8,7 @@
   class="flex justify-between flex-wrap items-center w-full mb-16 gap-6 mt-10 border-b-[1px] border-black/10 pb-4"
 >
   <div class="flex items-center gap-5">
-    <img src="/images/jntugv-logo.svg" alt="logo" width="45px" />
+    <img src="/images/albany.png" alt="logo" width="45px" />
     <h1 class="font-light text-3xl md:text-4xl">{name}</h1>
   </div>
   <div class="flex gap-4  justify-between md:justify-end w-full sm:w-auto">

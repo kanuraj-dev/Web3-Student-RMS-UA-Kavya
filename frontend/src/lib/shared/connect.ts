@@ -8,7 +8,7 @@ export const web3auth = async () => {
   const { Web3Auth } = await import("@web3auth/web3auth");
   return new Web3Auth({
     uiConfig: {
-      appLogo: "/images/jntugv-logo.svg",
+      appLogo: "/images/albany.png",
     },
     clientId: config.web3AuthClientId,
     chainConfig: {
