@@ -3,5 +3,5 @@ export const config = {
   chainId: 80001,
   rpcUrl: "https://matic-mumbai.chainstacklabs.com/",
   web3AuthClientId:
-    "BMHqQEC2GFC7AAnX_LpVm7QEl2BDN9caUoIkC8HtK5fZGA4diFbHY1H0BGbqq6xdtyTBtaGGVgMtjXPbmXGKFrE",
+    "BAjacNj9HCfNVe9bLzuf-h8Auo8DMKh9leCKx4f5ibqv36BkpYm6OB3VCwUuBEejl4wES9JLOoLi1anCtFNkmYg",
 };
