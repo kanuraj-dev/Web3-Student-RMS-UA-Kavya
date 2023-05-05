@@ -6,6 +6,7 @@ import type { Web3Auth } from "@web3auth/web3auth";
 
 export const web3auth = async () => {
   const { Web3Auth } = await import("@web3auth/web3auth");
+  console.log(utils.hexlify(config.chainId), utils.hexValue(config.chainId));
   return new Web3Auth({
     uiConfig: {
       appLogo: "/images/albany.png",
@@ -13,7 +14,7 @@ export const web3auth = async () => {
     clientId: config.web3AuthClientId,
     chainConfig: {
       chainNamespace: "eip155",
-      chainId: utils.hexlify(config.chainId),
+      chainId: utils.hexValue(config.chainId),
       rpcTarget: config.rpcUrl,
     },
   });
